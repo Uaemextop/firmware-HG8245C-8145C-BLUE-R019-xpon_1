@@ -1,0 +1,62 @@
+<CliRoot>
+<Restorehwmode CmdStr="restorehwmode.sh" ObjPath="restorehwmode.sh" OpType="0" Help="" CmdGroup="0x00000010">
+</Restorehwmode>
+<GetCustomInfo CmdStr="getcustominfo.sh" ObjPath="getcustominfo.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</GetCustomInfo>
+<ExitShell CmdStr="exit" ObjPath="exit.sh" OpType="0" Help="" CmdGroup="0x00000010">
+</ExitShell>
+<ListFile CmdStr="ls" ObjPath="wap.ls" OpType="1" Help="" CmdGroup="0x00000010">
+</ListFile>
+<KillAll CmdStr="killall" ObjPath="killall.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</KillAll>
+<EquipMode CmdStr="EquipMode.sh" ObjPath="EquipMode.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</EquipMode>
+<Customize CmdStr="customize.sh" ObjPath="customize.sh" OpType="1"  Help="" CmdGroup="0x00000010">
+</Customize>
+<Getcustomize CmdStr="getcustomize.sh" ObjPath="getcustomize.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</Getcustomize>
+<BoardType CmdStr="boardtype.sh" ObjPath="boardtype.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</BoardType>
+<WifiRXInit CmdStr="WifiRXInit.sh" ObjPath="WifiRXInit.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiRXInit>
+<WifiTXInit CmdStr="WifiTXInit.sh" ObjPath="WifiTXInit.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiTXInit>
+<WifiConfig CmdStr="iwconfig" ObjPath="iwconfig" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiConfig>
+<WifiBCMConfig CmdStr="wl" ObjPath="wl" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiBCMConfig>
+<IWPRIV CmdStr="iwpriv" ObjPath="iwpriv" OpType="1" Help="" CmdGroup="0x00000010">
+</IWPRIV>
+<ModefiyIfconfig CmdStr="ifconfig" ObjPath="ifconfig" OpType="1" Help="" CmdGroup="0x00000010">
+</ModefiyIfconfig>
+<ClcmCheck CmdStr="clcmcheck.sh" ObjPath="clcmcheck.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</ClcmCheck>
+<WifiChipInit CmdStr="WifiChipInit.sh" ObjPath="WifiChipInit.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiChipInit>
+<WifiTestModeInit CmdStr="WifiTestModeInit.sh" ObjPath="WifiTestModeInit.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiTestModeInit>
+<WifiChainSet CmdStr="WifiChainSet.sh" ObjPath="WifiChainSet.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiChainSet>
+<WifiSsidSet CmdStr="WifiSsidSet.sh" ObjPath="WifiSsidSet.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiSsidSet>
+<Wifi2GSsidSet CmdStr="Wifi2GSsidSet.sh" ObjPath="Wifi2GSsidSet.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</Wifi2GSsidSet>
+<Wifi5GSsidSet CmdStr="Wifi5GSsidSet.sh" ObjPath="Wifi5GSsidSet.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</Wifi5GSsidSet>
+<WifiChipInit2G5G CmdStr="WifiChipInit2G5G.sh" ObjPath="WifiChipInit2G5G.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiChipInit2G5G>
+<WifiRxTestModeSet2G CmdStr="WifiRxTestModeSet2G.sh" ObjPath="WifiRxTestModeSet2G.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiRxTestModeSet2G>
+<WifiRxTestModeSet5G CmdStr="WifiRxTestModeSet5G.sh" ObjPath="WifiRxTestModeSet5G.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiRxTestModeSet5G>
+<WifiTxTestModeSet2G CmdStr="WifiTxTestModeSet2G.sh" ObjPath="WifiTxTestModeSet2G.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiTxTestModeSet2G>
+<WifiTxTestModeSet5G CmdStr="WifiTxTestModeSet5G.sh" ObjPath="WifiTxTestModeSet5G.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiTxTestModeSet5G>
+<WifiChipInit5GAC CmdStr="WifiChipInit5GAC.sh" ObjPath="WifiChipInit5GAC.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiChipInit5GAC>
+<WifiTxTestModeSet5GAC CmdStr="WifiTxTestModeSet5GAC.sh" ObjPath="WifiTxTestModeSet5GAC.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiTxTestModeSet5GAC>
+<WifiRxTestModeSet5GAC CmdStr="WifiRxTestModeSet5GAC.sh" ObjPath="WifiRxTestModeSet5GAC.sh" OpType="1" Help="" CmdGroup="0x00000010">
+</WifiRxTestModeSet5GAC>
+</CliRoot>

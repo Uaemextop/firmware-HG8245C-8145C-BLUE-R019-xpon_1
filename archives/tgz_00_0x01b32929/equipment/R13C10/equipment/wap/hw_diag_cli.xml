@@ -1,0 +1,445 @@
+<CliRoot>
+<!-- Command of SSMP start -->
+<!-- PDT start -->
+<DisFile CmdStr="display file" ObjPath="showfiles.sh" OpType="1" Help="USAGE:
+      display file {directory}
+OPTIONS:
+      directory: Indicates a file path." CmdGroup="0x00004010">
+</DisFile>
+<ClearFile CmdStr="clear file" ObjPath="clearfiles.sh" OpType="0" Help="USAGE:
+      clear file {directory}
+OPTIONS:
+      directory: Indicates a file path." CmdGroup="0x00004010">
+</ClearFile>
+<RestoreManufactory CmdStr="restore manufactory" ObjPath="hw_restore_manufactory.sh" OpType="0" Help="USAGE:
+      restore manufactory
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</RestoreManufactory>
+<!-- PDT end -->
+<!-- WAP start -->
+<ListFileDetail CmdStr="wap ll" ObjPath="wap.ll" OpType="1" Help="USAGE:
+      wap ll {directory}
+OPTIONS:
+      directory: Indicates a file path." CmdGroup="0x00004010">
+</ListFileDetail>
+<ListFile CmdStr="wap ls" ObjPath="wap.ls" OpType="1" Help="USAGE:
+      wap ls {directory}
+OPTIONS:
+      directory: Indicates a file path." CmdGroup="0x00004010">
+</ListFile>
+<Collect CmdStr="collect debug info" ObjPath="collect.sh" OpType="1" Help="USAGE:
+      collect debug info
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</Collect>
+<Dlw CmdStr="display lastword" ObjPath="dlw" OpType="1" Help="USAGE:
+      display lastword
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</Dlw>
+<Clw CmdStr="clear lastword" ObjPath="clw" OpType="0" Help="USAGE:
+      clear lastword
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</Clw>
+<free CmdStr="display memory info" ObjPath="wap.free" OpType="1" Help="USAGE:
+      display memory info
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</free>
+<MidGet CmdStr="mid get" ObjPath="wap.midget" OpType="1" Help="USAGE:
+      mid get
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</MidGet>
+<MidSet CmdStr="mid set" ObjPath="wap.midset" OpType="0" Help="USAGE:
+      mid set midno value
+OPTIONS:
+      midno: Indicates the ID of the debug function.
+      value: Indicates the value for a debug function." CmdGroup="0x00004010">
+</MidSet>
+<DisplayMesaage CmdStr="display startup info" ObjPath="wap.dmesg" OpType="1" Help="USAGE:
+      display startup info
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</DisplayMesaage>
+<DisplayBmscrc CmdStr="display bmsxml crc" ObjPath="getbmscrc.sh" OpType="1" Help="USAGE:
+      display bmsxml crc
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</DisplayBmscrc>
+<WapPs CmdStr="wap ps" ObjPath="wap.ssp.ps" OpType="1" Help="USAGE:
+      wap ps
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</WapPs>
+<Top CmdStr="wap top" ObjPath="wap.top" OpType="1" Help="USAGE:
+      wap top
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</Top>
+<ShowLog CmdStr="display log info" ObjPath="dlog" OpType="1" Help="USAGE:
+      display log info
+OPTIONS:
+      None." CmdGroup="0x00004010">
+</ShowLog>
+<!-- WAP end -->
+<!-- Commands of SSMP end-->
+<!-- Command of BBSP(WAP) start -->
+<!-- WAP start -->
+<ShowWanLayer CmdStr="display wan layer all" ObjPath="display_wan_layer_all.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowWanLayer>
+<ShowFwAll CmdStr="display fw all" ObjPath="display_fw.sh all" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowFwAll>
+<ShowFwStats CmdStr="display fw statistic" ObjPath="display_fw.sh stats" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowFwStats>
+<FwDbgPktInfo CmdStr="debug fw pktinfo num" ObjPath="debug_fw_pktinfo_num.sh" OpType="0" Help="" CmdGroup="0x00004010">
+</FwDbgPktInfo>
+<ShowMac CmdStr="display mac all" ObjPath="display_mac_all.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowMac>
+<ShowVbridgeStats CmdStr="display vbridge statistic" ObjPath="vbridge_statistic.sh show" OpType="1" Help="display vbridge statistic [1:16]" CmdGroup="0x00004010">
+</ShowVbridgeStats>
+<CleanVbridgeStats CmdStr="vbridge statistic clear" ObjPath="vbridge_statistic.sh clear" OpType="0" Help="vbridge statistic clear [1:16]" CmdGroup="0x00004010">
+</CleanVbridgeStats>
+<DbgVbridgeHook CmdStr="debug vbr-fw hook" ObjPath="debug_vbr_fw.sh hook" OpType="0" Help="" CmdGroup="0x00004010">
+</DbgVbridgeHook>
+<DbgVbridgeVbrId CmdStr="debug vbr-fw vbr-id" ObjPath="debug_vbr_fw.sh vbr-id" OpType="0" Help="debug vbr-fw vbr-id [1:16]" CmdGroup="0x00004010">
+</DbgVbridgeVbrId>
+<DbgVbridgeAll CmdStr="debug vbr-fw all" ObjPath="debug_vbr_fw.sh all" OpType="0" Help="" CmdGroup="0x00004010">
+</DbgVbridgeAll>
+<ShowVportDetail  CmdStr="display vport detail" ObjPath="display_vport.sh detail" OpType="1" Help="display vport detail [1:1024]" CmdGroup="0x00004010">
+</ShowVportDetail>
+<CleanVportStats  CmdStr="vport statistic clear" ObjPath="vport_statistic_clear.sh " OpType="0" Help="vport statistic clear [1:1024]" CmdGroup="0x00004010">
+</CleanVportStats>
+<ShowVportAll  CmdStr="display vport all" ObjPath="display_vport.sh all" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowVportAll>
+<ShowCtpAll  CmdStr="display ctp all" ObjPath="display_ctp.sh all" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowCtpAll>
+<ShowCtpDetail  CmdStr="display ctp detail" ObjPath="display_ctp.sh detail" OpType="1" Help="display ctp detail [1:32]" CmdGroup="0x00004010">
+</ShowCtpDetail>
+<ShowVbridgeInfo  CmdStr="display vbridge info" ObjPath="display_vbridge.sh  info" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowVbridgeInfo>
+<ShowVbridgeUniBinding  CmdStr="display vbridge uni-binding" ObjPath="display_vbridge.sh  uni-binding" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowVbridgeUniBinding>
+<ShowVbridgeNniBinding  CmdStr="display vbridge nni-binding" ObjPath="display_vbridge.sh  nni-binding" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowVbridgeNniBinding>
+<ShowVbridgeUplinkBinding  CmdStr="display vbridge uplink-binding" ObjPath="display_vbridge.sh  uplink-binding" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowVbridgeUplinkBinding>
+<ShowVbridgePortBinding  CmdStr="display vbridge port-binding" ObjPath="display_vbridge.sh  port-binding" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowVbridgePortBinding>
+<ShowL2ffwdTable  CmdStr="display l2ffwd table" ObjPath="display_l2ffwd_table.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowL2ffwdTable>
+<ShowNaptSoft  CmdStr="display napt all" ObjPath="display_napt_all.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowNaptSoft>
+<ShowFfwdTableAll  CmdStr="display ffwd all" ObjPath="display_ffwd.sh  all" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowFfwdTableAll>
+<ShowFfwdStat  CmdStr="display ffwd stat" ObjPath="display_ffwd.sh  stat" OpType="1" Help="" CmdGroup="0x00004010">
+</ShowFfwdStat>
+<ShowFfwdDbgAll  CmdStr="debug ffwd all" ObjPath="debug_ffwd.sh all" OpType="0" Help="" CmdGroup="0x00004010">
+</ShowFfwdDbgAll>
+<ShowFfwdDbgTimer  CmdStr="debug ffwd timer" ObjPath="debug_ffwd.sh timer" OpType="0" Help="" CmdGroup="0x00004010">
+</ShowFfwdDbgTimer>
+<ShowFfwdDbgevent  CmdStr="debug ffwd event" ObjPath="debug_ffwd.sh event" OpType="0" Help="" CmdGroup="0x00004010">
+</ShowFfwdDbgevent>
+<ShowFfwdDbglsw  CmdStr="debug ffwd lsw" ObjPath="debug_ffwd.sh lsw" OpType="0" Help="" CmdGroup="0x00004010">
+</ShowFfwdDbglsw>
+<ShowFfwdDbgnapt  CmdStr="debug ffwd napt" ObjPath="debug_ffwd.sh napt" OpType="0" Help="" CmdGroup="0x00004010">
+</ShowFfwdDbgnapt>
+<ShowFfwdDbgfwd  CmdStr="debug ffwd fwd" ObjPath="debug_ffwd.sh fwd" OpType="0" Help="" CmdGroup="0x00004010">
+</ShowFfwdDbgfwd>
+<DbgVportall  CmdStr="debug vport all" ObjPath="debug_vport.sh all" OpType="0" Help="" CmdGroup="0x00004010">
+</DbgVportall>
+<DbgVportstep  CmdStr="debug vport step" ObjPath="debug_vport.sh  step" OpType="0" Help="" CmdGroup="0x00004010">
+</DbgVportstep>
+<DbgCtpall  CmdStr="debug ctp all" ObjPath="debug_ctp.sh all" OpType="0" Help="" CmdGroup="0x00004010">
+</DbgCtpall>
+<DbgCtpStep  CmdStr="debug ctp step" ObjPath="debug_ctp.sh step" OpType="0" Help="" CmdGroup="0x00004010">
+</DbgCtpStep>
+<OamL2shellShowEthVlan  CmdStr="display oaml2shell ethvlan" ObjPath="display_oaml2shell_ethvlan.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</OamL2shellShowEthVlan>
+<bbspCmddbg CmdStr="dbg" ObjPath="dbg.sh" Help="dbg value1 [int] value2 [int]" OpType="0" CmdGroup="0x00004010">
+</bbspCmddbg>
+<bbspCmdacl CmdStr="display acl chain all" ObjPath="display_acl_chain_all.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</bbspCmdacl>
+<bbspCmdcpudbgon CmdStr="cpu debug on" ObjPath="cpu_debug.sh on" OpType="0" Help="" CmdGroup="0x00004010">
+</bbspCmdcpudbgon>
+<bbspCmdcpudbgoff CmdStr="cpu debug off" ObjPath="cpu_debug.sh off" OpType="0" Help="" CmdGroup="0x00004010">
+</bbspCmdcpudbgoff>
+<bbspCmdroute CmdStr="display route" ObjPath="display_route.sh" OpType="1" Help="display route show {all | neigh | fib4 | fib6}" CmdGroup="0x00004010">
+</bbspCmdroute>
+<bbspCmdtunnel CmdStr="tunnel show all" ObjPath="display_tunnel.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</bbspCmdtunnel>
+<ping CmdStr="ping" ObjPath="ping.sh" OpType="0" Help="Usage: 
+ping [OPTIONS] HOST
+Send ICMP ECHO_REQUEST packets to network hosts
+Options:
+        -4,-6           Force IP or IPv6 name resolution
+        -c CNT          Send only CNT pings
+        -s SIZE         Send SIZE data bytes in packets (default:56)
+        -I IFACE/IP     Use interface or IP address as source
+        -W SEC          Seconds to wait for the first response (default:10)
+                        (after all -c CNT packets are sent)
+        -w SEC          Seconds until ping exits (default:infinite)
+                        (can exit earlier with -c CNT)
+        -q              Quiet, only displays output at start
+                        and when finished" CmdGroup="0x00004010">
+</ping>
+<traceroute CmdStr="traceroute" ObjPath="traceroute.sh" OpType="0" Help="Usage: 
+traceroute [-46FIldnrv] [-f 1ST_TTL] [-m MAXTTL] [-p PORT] [-q PROBES]
+        [-s SRC_IP] [-t TOS] [-w WAIT_SEC] [-g GATEWAY] [-i IFACE]
+        [-z PAUSE_MSEC] HOST [BYTES]
+Trace the route to HOST
+Options:
+        -4,-6   Force IP or IPv6 name resolution
+        -F      Set the don't fragment bit
+        -I      Use ICMP ECHO instead of UDP datagrams
+        -l      Display the TTL value of the returned packet
+        -d      Set SO_DEBUG options to socket
+        -n      Print numeric addresses
+        -r      Bypass routing tables, send directly to HOST
+        -v      Verbose
+        -m      Max time-to-live (max number of hops)
+        -p      Base UDP port number used in collectors
+                (default 33434)
+        -q      Number of probes per TTL (default 3)
+        -s      IP address to use as the source address
+        -t      Type-of-service in collector packets (default 0)
+        -w      Time in seconds to wait for a response (default 3)
+        -g      Loose source route gateway (8 max)" CmdGroup="0x00004010">
+</traceroute>
+<ifconfig CmdStr="ifconfig" ObjPath="ifconfig.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</ifconfig>
+<GetIPConntrack CmdStr="get ip conntrack" ObjPath="getipconntrack.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</GetIPConntrack>
+<GetIptablesNat CmdStr="get iptables nat" ObjPath="get_iptables_nat.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</GetIptablesNat>
+<GetIptablesFilter CmdStr="get iptables filter" ObjPath="get_iptables_filter.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</GetIptablesFilter>
+<GetIptablesMangle CmdStr="get iptables mangle" ObjPath="get_iptables_mangle.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</GetIptablesMangle>
+<GetIptablesRaw CmdStr="get iptables raw" ObjPath="get_iptables_raw.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</GetIptablesRaw>
+<IpRule CmdStr="ip rule" ObjPath="ip_rule.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</IpRule>
+<IpRoute CmdStr="ip route" ObjPath="ip_route.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</IpRoute>
+<Ipv6rule CmdStr="ip -6 rule" ObjPath="ip6_rule.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</Ipv6rule>
+<Ipv6route CmdStr="ip -6 route" ObjPath="ip6_route.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</Ipv6route>
+<IpNeigh CmdStr="ip neigh" ObjPath="ip_neigh.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</IpNeigh>
+<Ipv6Neigh CmdStr="ip -6 neigh" ObjPath="ip6_neigh.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</Ipv6Neigh>
+<Netstat CmdStr="netstat -na" ObjPath="netstat_na.sh" OpType="1" Help="" CmdGroup="0x00004010">
+</Netstat>
+<!-- WAP end -->
+<!-- PDT start -->
+<BroadbandDisplay CmdStr="Broadband display" ObjPath="Broadband display" OpType="1" Help="Usage: 
+Broadband display ethoam
+                  hw_route
+                  hw_tunnel
+                  ifm
+                  ker_route
+                  napt
+                  ptpdrv
+                  qos
+                  route
+" CmdGroup="0x00004010"/>
+<BroadbandDebug CmdStr="Broadband debug" ObjPath="Broadband debug" OpType="1" Help="Usage: 
+Broadband debug ethoam    {on | off | pkt XXX}
+                ifm
+                igmp
+                ker_route
+                lswadp
+                napt
+                portchk
+                ptpdrv
+                qos
+                route
+" CmdGroup="0x00004010"/>
+<!-- PDT end -->
+<!-- Command of BBSP end -->
+<!-- Command of AMP start -->
+<!-- WAP start -->
+<OmciDebug CmdStr="omcicmd debug" ObjPath="omcicmd-debug.sh" OpType="0" Help="[Usage]:
+omcicmd debug {[msg|0]|[trace|1]|[savemsg|2]|[noprtmsg|3]} {[off|0]|[on|1]}
+msg|0-omci_print trace|1-trace_print savemsg|2-omci_save noprtmsg|3-not_print_omci_msg
+off|0-disable on|1-enable" CmdGroup="0x00004010"/>
+<OmciErrLog CmdStr="omcicmd error log" ObjPath="omcicmd-error-log.sh" OpType="1" Help="[Usage]:show error log" CmdGroup="0x00004010"/>
+<OmciClearLog CmdStr="omcicmd clear log" ObjPath="omcicmd-clear-log.sh" OpType="0" Help="[Usage]:clear all omci &amp; error log" CmdGroup="0x00004010"/>
+<OmciShowLog CmdStr="omcicmd show log" ObjPath="omcicmd-show-log.sh" OpType="1" Help="[Usage]:print all saved log" CmdGroup="0x00004010"/>
+<OmciShowTcont CmdStr="omcicmd show tcont table" ObjPath="omcicmd-show-tcont-table.sh" OpType="1" Help="[Usage]:omcicmd show tcont table" CmdGroup="0x00004010"/>
+<OmciMibShow CmdStr="omcicmd mib show" ObjPath="omcicmd-mib-show.sh" OpType="1" Help="[Usage]:
+omcicmd mib show {me-id} {inst-id} 
+me-id: 65535 show all me and inst info 
+inst-id: 65535 show all inst info" CmdGroup="0x00004010"/>
+<OmciMibCopyShow CmdStr="omcicmd mib copy show " ObjPath="omcicmd-mib-copy-show.sh" OpType="1" Help="[Usage]:
+omcicmd mib copy show {seq} 
+seq: 65535 show mib copy basic info" CmdGroup="0x00004010"/>
+<OmciMibAttShow CmdStr="omcicmd mib att show" ObjPath="omcicmd-mib-att-show.sh" OpType="1" Help="[Usage]:
+omcicmd mib att show {me-id} 
+me-id: 65535 show all att info" CmdGroup="0x00004010"/>
+<OmciMibStatShow CmdStr="omcicmd mib stat show" ObjPath="omcicmd-mib-stat-show.sh" OpType="1" Help="[Usage]:omcicmd mib stat show" CmdGroup="0x00004010"/>
+<OmciShowOltType CmdStr="omcicmd show olt type" ObjPath="omcicmd-show-olt-type.sh" OpType="1" Help="[Usage]:
+0:HW OLT &amp; G984
+1:HW OLT &amp; Old(G984 2006)
+2:OTHER OLT
+3:HW OLT &amp; G988" CmdGroup="0x00004010"/>
+<OmciShowMsgStat CmdStr="omcicmd show msg stat" ObjPath="omcicmd-show-msg-stat.sh" OpType="1" Help="[Usage]:omcicmd show msg stat" CmdGroup="0x00004010"/>
+<OmciClearMsgStat CmdStr="omcicmd clear msg stat" ObjPath="omcicmd-clear-msg-stat.sh" OpType="0" Help="[Usage]:omcicmd clear msg stat" CmdGroup="0x00004010"/>
+<OmciAlarmCtrlShow CmdStr="omcicmd alarm ctrl show" ObjPath="omcicmd-alarm-ctrl-show.sh" OpType="1" Help="[Usage]:
+omcicmd alarm ctrl show {me-id}
+me-id: 65535 show all alarm ctrl info" CmdGroup="0x00004010"/>
+<OmciAlarmShow CmdStr="omcicmd alarm show" ObjPath="omcicmd-alarm-show.sh" OpType="1" Help="[Usage]:
+omcicmd alarm show {me-id} {inst-id}
+me-id: 65535 show all alarm
+inst-id: 65535 show inst alarm" CmdGroup="0x00004010"/>
+<OmciPmShow CmdStr="omcicmd pm show" ObjPath="omcicmd-pm-show.sh" OpType="1" Help="[Usage]:
+omcicmd pm show {me-id} {inst-id} 
+me-id: 65535 show all me and inst info 
+inst-id: 65535 show all inst info" CmdGroup="0x00004010"/>
+<OmciShowFlow CmdStr="omcicmd show flow" ObjPath="omcicmd-show-flow.sh" OpType="1" Help="[Usage]:
+omcicmd show flow {0|1|2|3|4|5|6}
+0:All
+1:AniportObj Cfg
+2:UniportObj Cfg
+3:GemportObj Cfg
+4:FlowObj Cfg
+5:All the flow ID
+6:All the flow entry" CmdGroup="0x00004010"/>
+<OmciShowQos CmdStr="omcicmd show qos" ObjPath="omcicmd-show-qos.sh" OpType="1" Help="[Usage]:omcicmd show qos" CmdGroup="0x00004010"/>
+<OamDebug CmdStr="oamcmd debug" ObjPath="oamcmd-debug.sh" OpType="0" Help="[Usage]:
+oamcmd debug {[msg|0]|[trace|1][savemsg|2]|[alarm|3]} {[on|1]|[off|0]} [llid]
+msg|0-oam msg print, trace|1-trace print, savemsg|2-save oam msg, alarm|3-alarm debug
+off|0-debug off, on|1-debug on
+llid:llid index (1-8)
+example: oamcmd debug msg on 1" CmdGroup="0x00004010"/>
+<OamShowLog CmdStr="oamcmd show log" ObjPath="oamcmd-show-log.sh" OpType="1" Help="[Usage]:print all saved log" CmdGroup="0x00004010"/>
+<OamClearLog CmdStr="oamcmd clear log" ObjPath="oamcmd-clear-log.sh" OpType="0" Help="[Usage]:oamcmd clear log" CmdGroup="0x00004010"/>
+<OamShowFlow CmdStr="oamcmd show flow" ObjPath="oamcmd-show-flow.sh" OpType="1" Help="[Usage]:
+oamcmd show flow {portid}
+portid---the id of eth port" CmdGroup="0x00004010"/>
+<!-- WAP end -->
+<!-- PDT start -->
+<AmpSetDebugOn CmdStr="ampcmd set debug on" ObjPath="ampcmdDebugOn.sh" OpType="0" Help="[Usage]:ampcmd set debug on" CmdGroup=""/>
+<AmpSetDebugOff CmdStr="ampcmd set debug off" ObjPath="ampcmdDebugOff.sh" OpType="0" Help="[Usage]:ampcmd set debug off" CmdGroup=""/>
+<AmpShowCarAll CmdStr="ampcmd show car all" ObjPath="ampcmdShowCarAll.sh" OpType="1" Help="[Usage]:ampcmd show car all" CmdGroup="0x00004000"/>
+<AmpShowCarIndex CmdStr="ampcmd show car index" ObjPath="ampcmdShowCarIndex.sh" OpType="1" Help="[Usage]:ampcmd show car index {index}" CmdGroup="0x00004000"/>
+<AmpShowQueueAll CmdStr="ampcmd show queue all" ObjPath="ampcmdShowQueAll.sh" OpType="1" Help="[Usage]:ampcmd show queue all" CmdGroup="0x00004000"/>
+<AmpShowQueueIndex CmdStr="ampcmd show queue index" ObjPath="ampcmdShowQueIndex.sh" OpType="1" Help="[Usage]:ampcmd show queue index {index}" CmdGroup="0x00004000"/>
+<AmpShowFlowAll CmdStr="ampcmd show flow all" ObjPath="ampcmdShowFlowAll.sh" OpType="1" Help="[Usage]:ampcmd show flow all" CmdGroup="0x00004000"/>
+<AmpShowFlowIndex CmdStr="ampcmd show flow index" ObjPath="ampcmdShowFlowIndex.sh" OpType="1" Help="[Usage]:ampcmd show flow index {index}" CmdGroup="0x00004000"/>
+<AmpShowEmacStat CmdStr="ampcmd show emac stat" ObjPath="ampcmdShowEmacStat.sh" OpType="1" Help="[Usage]:
+ampcmd show emac stat {0|1|2|3|4}
+0: emac message queue
+1: emac up traffic
+2: emac down traffic
+3: kernel oam
+4: config" CmdGroup="0x00004000"/>
+<AmpClearEmacStat CmdStr="ampcmd clear emac stat" ObjPath="ampcmdClrEmacStat.sh" OpType="0" Help="[Usage]:
+ampcmd clear emac stat {0|1|2|3|4}
+0: emac message queue
+1: emac up traffic
+2: emac down traffic
+3: kernel oam
+4: config" CmdGroup=""/>
+<AmpSetEmacDbg CmdStr="ampcmd set emac dbg" ObjPath="ampcmdSetEmacDbg.sh" OpType="0" Help="[Usage]:
+ampcmd set emac dbg {0|1|2|3|4} {0|1}
+Param &lt; 1 &gt;
+0: debug register module
+1: debug high-level protocol module
+2: debug adaptor module
+3: debug chip module
+4: debug message module
+Param &lt; 2 &gt;
+1: on
+0: off" CmdGroup=""/>
+<AmpShowEmacCfg CmdStr="ampcmd show emac cfg" ObjPath="ampcmdShowEmacCfg.sh" OpType="1" Help="[Usage]:
+ampcmd show emac cfg {0|1|2|3|4}
+0: global attribute
+1: up attribute
+2: up report table
+3: dwon attribute
+4: dwon llid table" CmdGroup=""/>
+<AmpSelftest CmdStr="ampcmd selftest" ObjPath="ampcmdSelfTest.sh" OpType="1" Help="[Usage]:ampcmd selftest" CmdGroup=""/>
+<AmpTraceAll CmdStr="ampcmd trace all" ObjPath="ampcmdTraceAll.sh" OpType="0" Help="[Usage]:ampcmd trace all {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceEth CmdStr="ampcmd trace eth" ObjPath="ampcmdTraceEth.sh" OpType="0" Help="[Usage]:ampcmd trace eth {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceOnu CmdStr="ampcmd trace onu" ObjPath="ampcmdTraceOnu.sh" OpType="0" Help="[Usage]:ampcmd trace onu {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceOptic CmdStr="ampcmd trace optic" ObjPath="ampcmdTraceOptic.sh" OpType="0" Help="[Usage]:ampcmd trace optic {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceGmap CmdStr="ampcmd trace gmap" ObjPath="ampcmdTraceGmap.sh" OpType="0" Help="[Usage]:ampcmd trace gmap {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceEmap CmdStr="ampcmd trace emap" ObjPath="ampcmdTraceEmap.sh" OpType="0" Help="[Usage]:ampcmd trace emap {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceGmac CmdStr="ampcmd trace gmac" ObjPath="ampcmdTraceGmac.sh" OpType="0" Help="[Usage]:ampcmd trace gmac {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceEmac CmdStr="ampcmd trace emac" ObjPath="ampcmdTraceEmac.sh" OpType="0" Help="[Usage]:ampcmd trace emac {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceQos CmdStr="ampcmd trace qos" ObjPath="ampcmdTraceQos.sh" OpType="0" Help="[Usage]:ampcmd trace qos {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceDrv CmdStr="ampcmd trace drv" ObjPath="ampcmdTraceDrv.sh" OpType="0" Help="[Usage]:ampcmd trace drv {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceCli CmdStr="ampcmd trace cli" ObjPath="ampcmdTraceCli.sh" OpType="0" Help="[Usage]:ampcmd trace cli {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceDpoe CmdStr="ampcmd trace dpoe" ObjPath="ampcmdTraceDpoe.sh" OpType="0" Help="[Usage]:ampcmd trace dpoe {on|off}" CmdGroup="0x00004000"/>
+<AmpTraceGet CmdStr="ampcmd trace get" ObjPath="ampcmdTraceGet.sh" OpType="1" Help="[Usage]:ampcmd trace get" CmdGroup=""/>
+<AmpShowLog CmdStr="ampcmd show log" ObjPath="ampcmdShowLog.sh" OpType="1" Help="[Usage]:ampcmd show log" CmdGroup="0x00004000"/>
+<AmpClearLog CmdStr="ampcmd clear log" ObjPath="ampcmdClrLog.sh" OpType="0" Help="[Usage]:ampcmd clear log" CmdGroup=""/>
+<AmpShowGemStatsAll CmdStr="ampcmd show gemstatscfg all" ObjPath="ampcmdShowGemStatAll.sh" OpType="1" Help="[Usage]:ampcmd show gemstatscfg all" CmdGroup=""/>
+<AmpShowGemStatsIndex CmdStr="ampcmd show gemstatscfg index" ObjPath="ampcmdShowGemStatIndex.sh" OpType="1" Help="[Usage]:ampcmd show gemstatscfg index {index}" CmdGroup=""/>
+<AmpShowEthStatsAll CmdStr="ampcmd show ethstatscfg all" ObjPath="ampcmdShowEthStatAll.sh" OpType="1" Help="[Usage]:ampcmd show ethstatscfg all" CmdGroup=""/>
+<AmpShowEthStatsIndex CmdStr="ampcmd show ethstatscfg index" ObjPath="ampcmdShowEthStatIndex.sh" OpType="1" Help="[Usage]:ampcmd show ethstatscfg index {index}" CmdGroup=""/>
+<AmpShowDpoeFlow CmdStr="ampcmd show dpoe flow" ObjPath="ampcmdShowDopeFlow.sh" OpType="1" Help="[Usage]:ampcmd show dpoe flow" CmdGroup=""/>
+<OmciPdtShowLog CmdStr="omcicmd pdt show log" ObjPath="omcicmdPdtShowLog.sh" OpType="1" Help="[Usage]:omcicmd pdt show log" CmdGroup="0x00004000"/>
+<OmciPdtClearLog CmdStr="omcicmd pdt clear log" ObjPath="omcicmdPdtClrLog.sh" OpType="0" Help="[Usage]:omcicmd pdt clear log" CmdGroup=""/>
+<OamPdtShowLog CmdStr="oamcmd pdt show log" ObjPath="oamcmdPdtShowLog.sh" OpType="1" Help="[Usage]:oamcmd pdt show log" CmdGroup="0x00004000"/>
+<OamPdtClearLog CmdStr="oamcmd pdt clear log" ObjPath="oamcmdPdtClrLog.sh" OpType="0" Help="[Usage]:oamcmd pdt clear log" CmdGroup=""/>
+<!-- PDT end -->
+<!-- Command of AMP end -->
+<!-- Command of LDSP start -->
+<chipdebug CmdStr="chipdebug" OpType="0" ObjPath="chipdebug" Help="" CmdGroup="0x00004010">
+</chipdebug>
+<memdump CmdStr="md" OpType="1" ObjPath="md" Help="" CmdGroup="">
+</memdump>
+<!-- Command of LDSP end -->
+<!-- Command of VOICE start -->
+<debugdsp CmdStr="debug dsp msg" OpType="0" ObjPath="debugdsp.sh" Help="" CmdGroup="0x00004010">
+</debugdsp>
+<debugupmsg CmdStr="debug dsp up msg" OpType="0" ObjPath="debugupmsg.sh" Help="" CmdGroup="0x00004010">
+</debugupmsg>
+<debugdownmsg CmdStr="debug dsp down msg" OpType="0" ObjPath="debugdownmsg.sh" Help="" CmdGroup="0x00004010">
+</debugdownmsg>
+<printrtprunning CmdStr="debug rtp stack" OpType="0" ObjPath="printrtprunning.sh" Help="" CmdGroup="0x00004010">
+</printrtprunning>
+<printsamplemediastar CmdStr="debug sample mediastar" OpType="0" ObjPath="printsamplemediastar.sh" Help="" CmdGroup="0x00004010">
+</printsamplemediastar>
+<jbpara CmdStr="display jb para" OpType="1" ObjPath="jbpara.sh" Help="" CmdGroup="0x00004010">
+</jbpara>
+<displaychannel CmdStr="display rtp stack para" OpType="1" ObjPath="displaychannel.sh" Help="" CmdGroup="0x00004010">
+</displaychannel>
+<displaydsp CmdStr="display dsp channel para" OpType="1" ObjPath="displaydsp.sh" Help="" CmdGroup="0x00004010">
+</displaydsp>
+<codecstatus CmdStr="display dsp codec status" OpType="1" ObjPath="codecstatus.sh" Help="" CmdGroup="0x00004010">
+</codecstatus>
+<displaychannelstatus CmdStr="display dsp channel status" OpType="1" ObjPath="displaychannelstatus.sh" Help="" CmdGroup="0x00004010">
+</displaychannelstatus>
+<channelstatus CmdStr="display dsp channel running status" OpType="1" ObjPath="channelstatus.sh" Help="" CmdGroup="0x00004010">
+</channelstatus>
+<displayjbgridstatus CmdStr="display jb grid status" OpType="1" ObjPath="displayjbgridstatus.sh" Help="" CmdGroup="0x00004010">
+</displayjbgridstatus>
+<rtpstat CmdStr="display rtp stack channel stat" OpType="1" ObjPath="rtpstat.sh" Help="" CmdGroup="0x00004010">
+</rtpstat>
+<displaychipstat CmdStr="display rtp statck chip stat" OpType="1" ObjPath="displaychipstat.sh" Help="" CmdGroup="0x00004010">
+</displaychipstat>
+<dspstatus CmdStr="display dsp chip stat" OpType="1" ObjPath="dspstatus.sh" Help="" CmdGroup="0x00004010">
+</dspstatus>
+<displaybreakstat CmdStr="display dsp interrupt stat" OpType="1" ObjPath="displaybreakstat.sh" Help="" CmdGroup="0x00004010">
+</displaybreakstat>
+<dspversion CmdStr="display zsp version" OpType="1" ObjPath="dspversion.sh" Help="" CmdGroup="0x00004010">
+</dspversion>
+<displayDspVersion CmdStr="display rtp stack version" OpType="1" ObjPath="displayDspVersion.sh" Help="" CmdGroup="0x00004010">
+</displayDspVersion>
+<!-- Command of VOICE END -->
+<!-- Command just for equip start -->
+<Maintain  CmdStr="maintain  mode" ObjPath="OntMaintain.sh" OpType="5" Help="USAGE:
+      maintain  mode {OPTIONS [success, fail]}
+OPTIONS:
+      success:maintain success.
+      fail:maintain fail." CmdGroup="0x00004010">
+</Maintain>
+<!-- Command just for equip end -->
+</CliRoot>
